@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_mission02"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.parkjinkyu.mission.Mission02Activity"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Mission_02"
+        android:layout_width="match_parent"
+        android:id="@+id/textView"
+        android:layout_height="33dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_weight="0.92"
+        android:gravity="top|left"
+        android:textSize="40sp"
+        android:scrollHorizontally="true"
+        android:text="일이삼사오륙칠팔구십" />
+
+    <TextView
+        android:text="0 / 80 바이트"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_weight="0.03"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="24sp"
+        android:gravity="right|center" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="전송"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="54dp"
+            android:layout_marginStart="54dp"
+            android:id="@+id/button1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:onClick="onButton1Clicked" />
+
+        <Button
+            android:text="닫기"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="54dp"
+            android:layout_marginEnd="54dp"
+            android:id="@+id/button2"
+            android:onClick="onButton2Clicked" />
+
+    </RelativeLayout>
+
+</LinearLayout>
