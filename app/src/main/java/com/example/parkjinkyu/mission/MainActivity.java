@@ -22,4 +22,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), Mission02Activity.class);
         startActivity(intent);
     }
+
+    public void onButton3Clicked(View v) {
+        Intent intent = new Intent(getApplicationContext(), Mission03Activity.class);
+        startActivity(intent);
+    }
 }
