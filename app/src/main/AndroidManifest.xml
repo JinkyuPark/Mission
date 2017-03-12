@@ -19,7 +19,7 @@
         </activity>
         <activity android:name=".Mission01Activity" />
         <activity android:name=".Mission02Activity" />
-        <activity android:name=".Mission03Activity"></activity>
+        <activity android:name=".Mission03LoginActivity"></activity>
     </application>
 
 </manifest>
